@@ -1,0 +1,15 @@
+body{
+  background-color: white;
+}
+
+.review{
+  width: auto;
+  height: auto;
+  border-left: 6px solid blue;
+  /* background-color: lightgrey; */
+}
+
+.name{
+  background-color: lightgrey;
+  width: 70px;
+}

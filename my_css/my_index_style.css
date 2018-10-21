@@ -1,0 +1,99 @@
+body{
+  background-color: #21252B;
+  background-image: url("coffee.jpg");
+   background-attachment: fixed;
+background-size: cover;
+      background-repeat: no-repeat;
+      background-size: fit;
+      z-index: -1;
+
+}
+
+
+.regitration_position{
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
+background-color: #21252B;
+  border: 5px solid white;
+  float: left;
+
+  width: 250px;
+  height: 410px;
+    transition: width 2s, height 2s;
+
+}
+
+.regitration_position:hover{
+  width: 350px;
+  height: 500px;
+}
+
+.registration_style{
+  color: white;
+}
+
+.sign_in_style{
+  margin-top: 10px;
+  margin-left: 100px;
+    margin-right: 100px;
+  border: 5px solid white;
+  width: 270px;
+  height: 310px;
+    color: white;
+    padding: 5px;
+    background-color: #21252B;
+transition: width 2s, height 2s;
+float: right;
+}
+
+.sign_in_style:hover{
+
+  width: 330px;
+  height: 430px;
+
+}
+
+#header{
+ color: white;
+ margin-left: 500px;
+}
+
+.about{
+  color: white;
+  margin-top: 200px;
+  margin-left: 400px;
+  width: 500px;
+}
+
+.button_style{
+  width:80px;
+  height: 40px;
+    font-size: 20px;
+  transition: width 2s, height 2s;
+
+}
+
+.button_style:hover{
+  width : 150px;
+  height: 60px;
+
+}
+
+
+input{
+    transition: width 2s ease-in-out;
+}
+
+input:focus{
+  border: 3px solid #555;
+  width: 100%;
+}
+
+.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+}

@@ -1,0 +1,55 @@
+body{
+  background-image: url("back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.admin{
+  height: auto;
+  width: 700px;
+  margin-left: 50px;
+  transition: width 2s;
+}
+.admin:hover{
+  width: 900px;
+}
+.butn_position{
+  margin-left: 100px;
+}
+
+.nav_btn{
+background-color: #000000;
+}
+
+.order{
+  margin-left: 100px;
+  width: 600px;
+  height: 300px;
+  transition: width 2s;
+}
+.order:hover{
+  width: 800px;
+}
+
+
+.cream{
+  height: auto;
+  width: 700px;
+  margin-left: 50px;
+  transition: width 2s;
+}
+
+.cream:hover{
+  width: 900px;
+}
+
+.espresso{
+  height: auto;
+  width: 700px;
+  margin-left: 50px;
+  transition: width 2s;
+}
+
+.espresso:hover{
+  width: 900px;
+}
